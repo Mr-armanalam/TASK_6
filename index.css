@@ -1,0 +1,476 @@
+body{
+    padding: 0%;
+    margin: 0;
+}
+
+.auth_btn_clr{
+    background-color: blue;
+    color: white;
+}
+
+/* body_email start */
+.bd_em_part_main{ 
+    padding: 7%;
+    padding-bottom: 6.25rem;
+}
+.bd_em_part1{
+    text-align: center;
+    position: relative;
+}
+.bd_em_part1 h1{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    color: rgb(10, 16, 47);
+    font-weight: 700;
+    font-size: 6vw;
+}
+.bd_em_part1 h4{
+    margin: 0;
+    display: block;
+    padding: 1rem 13% 0 13%;
+    font-family: sans-serif;
+    color: rgb(118, 120, 137);
+    font-weight: 500; 
+    font-size: 1.2rem;  
+    margin: 0 5%;
+}
+.bd_em_child1{
+    height: 55px;
+    width: 200px;
+    background-color:#3147FF ;
+}
+.bd_em_child2{
+    padding: 4px 50px 4px 50px;
+    height: 55px;
+    width: 250px;
+}
+/* body email1 end */
+
+/* brand section start */
+.brand_section{
+    padding: 0 2.5rem 0 2.5rem;
+}
+.brand_slider_container{
+    padding-bottom:  2.5rem;
+    overflow-x:auto;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+}
+.brand_element{
+    padding-right: 11.4%;
+}
+
+/* brand section end */
+
+/* process section start  */
+.process_section{
+    background-color: #0A102F;
+    padding-bottom: 4rem;
+}
+.process_title{
+    padding: 5.5rem 22% 3rem 22%;
+}
+.process_title h1{
+    font-family: sans-serif;
+    font-size: 3rem;
+    line-height: 4rem;
+}
+
+.process_step{
+    width: 400px;
+    padding: 2rem;
+}
+.p_step_box{
+    padding: 3rem 0 2rem 0;
+}
+
+.p_step{
+    padding-bottom: 0.3rem;
+    color: #BEF8FC;
+    border-bottom: 2px solid #BEF8FC;
+    font-size: 1.55rem;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+.p_step_title{
+    display: block;
+    color: white;
+    font-size: 1.42rem;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+.step_text{
+    color: rgb(225, 225, 225);
+}
+/* process section end*/
+
+/* email2 section start */
+.e_container2_section{
+    padding: 8.5% 2rem 0.5rem 2rem;
+}
+.e_container_main2 ,.e_container_main3{
+    padding-bottom: 5rem;
+}
+.e_container_box, .e3_container_right {
+    width: 568px;
+}
+.e_container_box>img,
+.e3_container_right>img{
+    width: 100%;
+}
+
+.e_container_box2{
+    box-sizing: border-box;
+    padding-left: 6%;
+    width: 700px;
+}
+.e2_title_msg, .e3_title1,.discover_main_title{
+    color: rgb(24, 24, 24);
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: 2.5rem;
+    line-height: 3.5rem;
+}
+
+.e2_percent_box{
+    padding-top: 4.5rem;
+}
+.e2_percent{
+    padding-right: 4rem;
+    line-height: 3rem;
+}
+.e2_percent2{
+    line-height: 3rem; 
+}
+.e2_percent_text{
+    color: #3147FF;
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: 5vw;
+}
+/* 2nd email end */
+
+/* third email start */
+.e3_container_left{
+    width: 700px;
+}
+.font_md_size{
+    font-size: 1.20rem;
+    font-weight: 400;
+    color: #696565;
+}
+.e3_title2,.e3_title3{
+    padding: 0.7rem 0 0.3rem 0;
+    color: black;
+    font-weight: 700;
+    font-size: 1.367rem;
+}
+.e3_description2,.e3_description3{
+    padding-right: 5.5rem;
+    padding-left: 2rem;
+}
+
+/* discover section */
+.discover_section{
+    padding: 3rem 0;
+    background-color: #FAFAFA;
+    width: auto;
+    height: auto;
+}
+.discover_main_title{
+    padding: 4rem 22%;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.discover_box{
+    width: 620px;
+    border: 1px solid rgb(233, 233, 233);
+    padding: 3.1rem;
+}
+.dcvr_icon{
+    width: 110px;
+}
+.dcvr_msg{
+    width: 420px;
+}
+
+.dcvr_title{
+    padding-left:1.5rem;
+    color: #0A102F;
+    font-size: 1.55rem;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+.dcvr_description{
+    padding:1rem 0 1.35rem 1.5rem;
+}
+.dcvr_navigation{
+    padding-left:1.5rem;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 1.09rem;
+}
+
+/* multichannel section start */
+.multichannel_section{
+    padding: 4.5rem 0;
+    width: auto;
+    height: auto;
+}
+.channel_title_container{
+    padding: 2.2rem;
+}
+.channel_title_container h1{
+    padding: 0%;
+    margin: 0;
+    width: 700px;
+    font-weight: 700;
+    font-size: 3.02rem;
+    line-height: 3.5rem;
+}
+.channel_btn_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}  
+.channel_btn{ 
+    font-weight: 600;
+    background-color: #3147FF;
+    padding: 1rem 2.4rem;
+}
+.channel_slider_container{
+    padding: 2rem 0;
+    display: flex;
+    flex-direction: column;
+}
+.channel{
+    display: flex;
+    border: 1px solid rgb(240, 239, 239);
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin-left: 1.4rem;
+    margin-bottom: 2rem;
+    width: auto;
+}
+.channel_name, .channel_icon{
+    padding-right: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 1.55rem;
+}
+.mk_channel_scrl{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+}
+/* channel section end */
+
+/* review section start */
+.review_section{
+    padding: 4rem 0;
+    background-color: #FAFAFA;
+    width: auto;
+    height: auto;
+    padding-bottom: 6.6rem;
+}
+.review_title_container{
+    text-align: center;
+    margin: 3rem 20%;
+}
+.review_title_container h1{
+    color: rgb(5, 5, 5);
+    font-size: 3rem;
+    font-weight: 700;
+    font-family: sans-serif;
+    line-height: 3.6rem;
+}
+.reviews_containers{
+    width: auto;
+    height: auto;
+    margin: 4rem 0;
+}
+
+.review_boxes{
+    width: 404px;
+    height:auto;
+    padding: 1.5rem;
+    background-color: white;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+}
+.review>div{
+    color: #121212;
+    font-weight: 600;
+    padding-top: 1.6rem;
+    font-size: 1.30rem;
+}
+.review h4{
+    margin-top: 0;
+    padding-top: 0.5rem;
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: #6d6d6d;
+}
+
+.reviewer_name >h4,h5{
+    padding: 0%;
+    margin: 0%;
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: #121212;
+}
+.color_black{
+    color: #121212;
+}
+.reviewer_name h5{
+    font-weight: 400;
+    font-size: 1.05rem;
+}
+
+.allreview_btn{
+    width: 370px;
+    padding: 20px 0;
+    color: white;
+    background-color: #3147FF;
+    font-weight: 600;
+    font-size: 1.04rem;
+}
+.allreview_btn a{
+    font-weight: 700;
+}
+/* review section end */
+
+/* information section start */
+.more_information_section{
+    padding: 4rem 2rem;
+}
+.inf_left_box{
+    width: 670px;
+}
+.inf_left_title{
+    color: #090909;
+    font-family: sans-serif;
+    font-size: 2.8rem;
+    font-weight: 700;
+    line-height: 3.5rem;
+}
+.inf_left_descrpsn{
+    padding-top: 20px;
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: #6d6d6d;
+}
+
+.inf_right_box{
+    width: 570px;
+}
+.inf_right_msg1{
+    border-bottom: 1px solid rgb(233, 233, 233);
+}
+.a,.b{
+    font-size: 1.5rem;
+   color: #121212;
+    font-weight: 600;
+}
+.b{
+    color: #393838;
+}
+.inf_right_msg1>h4{
+    padding: 0%;
+    font-weight: 500;
+    font-size: 1.25rem;
+    color: #6d6d6d;
+}
+
+.inf_right_msg2,.inf_right_msg3{
+    padding: 1rem 0;
+    border-bottom: 1px solid rgb(233, 233, 233);
+}
+.inf_right_msg3{
+    border: none;
+}
+
+/* contact section start */
+.contact_section{
+    padding: 2.1rem;
+    margin-bottom:4rem ;
+    width: auto;
+}
+.contact_container{
+    padding:8%;
+    background-color: #3147FF;
+}
+.bg_contact_pic{
+    top: 0;
+    right: 0;
+}
+.contact_title{
+    padding:0 20%;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+}
+.contact_btn_box{
+    padding-top: 3rem;
+}
+.contact_btn1{
+    padding-left: 1.5rem;
+}
+
+/* footer start */
+footer{
+    width: 100%;
+    height: auto;
+    background-color: #0A102F;
+}
+.footer_container{
+    width: auto;
+    margin: 5rem 0;
+}
+.footer_box{
+    padding-left: 3rem;
+    width: 286px;
+}
+.footer_title{
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+.description>ul{
+    list-style: none;
+    padding: 0%;
+    margin: 0;
+    padding-top: 1.2rem;
+}
+.description>ul>li{
+    font-size: 1.2rem;
+    color: rgb(197, 197, 197);
+    line-height: 2.6rem;
+}
+.copyright_container{
+    border-top: 0.1px solid rgba(197, 197, 197, 0.204);
+    margin: 0 2.5rem;
+}
+.footer_logo,.copyright_text{
+    color: rgb(197, 197, 197);
+}
+.copyright_icon{
+    color: #FAFAFA;
+}
+.c_icon{
+    display: block;
+    width: 32px;
+    height: 32px;
+    background-color: rgba(158, 158, 159, 0.331);
+    border-radius: 50%;
+}
+.c_icon>i{
+    font-size: 1rem;
+    top: 27%;
+    right: 27%;
+    
+}
